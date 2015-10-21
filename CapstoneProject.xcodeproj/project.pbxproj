@@ -9,11 +9,46 @@
 /* Begin PBXBuildFile section */
 		AD01ABCC1B817E55009196C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01ABCB1B817E55009196C1 /* AppDelegate.swift */; };
 		AD01ABCF1B817E55009196C1 /* CapstoneProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD01ABCD1B817E55009196C1 /* CapstoneProject.xcdatamodeld */; };
-		AD01ABD11B817E55009196C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01ABD01B817E55009196C1 /* ViewController.swift */; };
 		AD01ABD41B817E55009196C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD01ABD21B817E55009196C1 /* Main.storyboard */; };
 		AD01ABD61B817E55009196C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD01ABD51B817E55009196C1 /* Images.xcassets */; };
 		AD01ABD91B817E55009196C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD01ABD71B817E55009196C1 /* LaunchScreen.xib */; };
 		AD01ABE51B817E55009196C1 /* CapstoneProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01ABE41B817E55009196C1 /* CapstoneProjectTests.swift */; };
+		AD075A551B91A73900A912E2 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD075A541B91A73900A912E2 /* YelpClient.swift */; };
+		AD143B3F1BA89F7600381CF9 /* ThumbsUpRatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD143B3E1BA89F7600381CF9 /* ThumbsUpRatingControl.swift */; };
+		AD4D2D271B96990A00A97BDA /* YelpResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D2D261B96990A00A97BDA /* YelpResultsController.swift */; };
+		AD5017331BB1D6400073BD40 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AD5017321BB1D6400073BD40 /* Cartfile */; settings = {ASSET_TAGS = (); }; };
+		AD5A27DE1B98C56600F60E5F /* EditJournalEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27DD1B98C56600F60E5F /* EditJournalEntryTableViewController.swift */; };
+		AD5A27E31B995ABB00F60E5F /* EaterySelectionMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27E21B995ABB00F60E5F /* EaterySelectionMapViewController.swift */; };
+		AD5A27E51B997CA100F60E5F /* JournalEntryFoodTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27E41B997CA100F60E5F /* JournalEntryFoodTypeController.swift */; };
+		AD5A27E71B9B95B500F60E5F /* CapstoneProjectConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27E61B9B95B500F60E5F /* CapstoneProjectConvenience.swift */; };
+		AD5A27E91B9CBAC700F60E5F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27E81B9CBAC700F60E5F /* ImageCache.swift */; };
+		AD5A27EB1B9E37E500F60E5F /* FoodTypePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27EA1B9E37E500F60E5F /* FoodTypePageViewController.swift */; };
+		AD5A27ED1B9F489300F60E5F /* FoodTypeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27EC1B9F489300F60E5F /* FoodTypeDetailViewController.swift */; };
+		AD65E80A1B81812F00AA9B56 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD65E8091B81812F00AA9B56 /* CloudKit.framework */; };
+		AD65E80C1B8184CF00AA9B56 /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E80B1B8184CF00AA9B56 /* CoreDataStackManager.swift */; };
+		AD65E80E1B818A6F00AA9B56 /* CloudKitClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E80D1B818A6F00AA9B56 /* CloudKitClient.swift */; };
+		AD65E8101B818B5F00AA9B56 /* FoursquareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E80F1B818B5F00AA9B56 /* FoursquareClient.swift */; };
+		AD65E8121B818BD200AA9B56 /* FoursquareConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E8111B818BD200AA9B56 /* FoursquareConstants.swift */; };
+		AD65E8141B81910200AA9B56 /* NetworkingConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E8131B81910200AA9B56 /* NetworkingConvenience.swift */; };
+		AD65E8161B8D3B8C00AA9B56 /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E8151B8D3B8C00AA9B56 /* NearMeViewController.swift */; };
+		AD65E8181B8D3BD600AA9B56 /* LocalFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E8171B8D3BD600AA9B56 /* LocalFoodViewController.swift */; };
+		AD65E81A1B8D3C1800AA9B56 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E8191B8D3C1800AA9B56 /* JournalViewController.swift */; };
+		AD65E81C1B8D409A00AA9B56 /* FoodTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E81B1B8D409A00AA9B56 /* FoodTypeViewController.swift */; };
+		AD65E81E1B8D42BB00AA9B56 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65E81D1B8D42BB00AA9B56 /* JournalEntryViewController.swift */; };
+		AD84014F1BB2B600006C663F /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE75B321BB12D980024C66A /* OAuthSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AD8401501BB2B600006C663F /* OAuthSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADE75B321BB12D980024C66A /* OAuthSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AD9E53121BAEF18400AA8727 /* EateryPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E53111BAEF18400AA8727 /* EateryPhoto.swift */; };
+		ADA355E61B8E40B400D33A54 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA355E51B8E40B400D33A54 /* Food.swift */; };
+		ADA355E81B8E4B3500D33A54 /* CustomTableCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA355E71B8E4B3500D33A54 /* CustomTableCells.swift */; };
+		ADA956F21BB1DA1D0067D634 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA956F11BB1DA1D0067D634 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ADA956F41BB1DA210067D634 /* Pods_CapstoneProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA956F31BB1DA210067D634 /* Pods_CapstoneProject.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ADA956F61BB1DA2F0067D634 /* Pods_CapstoneProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA956F51BB1DA2F0067D634 /* Pods_CapstoneProjectTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ADAB3C401BC37E9E00F42ACF /* EditJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAB3C3F1BC37E9E00F42ACF /* EditJournalEntryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ADBC66871B8FBAEE003F01DE /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC66861B8FBAED003F01DE /* JournalEntry.swift */; };
+		ADEADAEA1B91B87B006B2E74 /* CapstoneProjectConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEADAE91B91B87B006B2E74 /* CapstoneProjectConstants.swift */; };
+		ADEADAEC1B9381B5006B2E74 /* CustomCollectionCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEADAEB1B9381B5006B2E74 /* CustomCollectionCells.swift */; };
+		ADEADAEE1B952C36006B2E74 /* Eatery.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEADAED1B952C36006B2E74 /* Eatery.swift */; };
+		ADEADAF01B9542F1006B2E74 /* InfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEADAEF1B9542F1006B2E74 /* InfoCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,20 +59,110 @@
 			remoteGlobalIDString = AD01ABC51B817E55009196C1;
 			remoteInfo = CapstoneProject;
 		};
+		ADE75B281BB12CA80024C66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE75B211BB12CA80024C66A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F451E3C5195B8CD80051434C;
+			remoteInfo = OAuthSwiftDemo;
+		};
+		ADE75B2A1BB12CA80024C66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE75B211BB12CA80024C66A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F435027A1A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
+		ADE75B2C1BB12CA80024C66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE75B211BB12CA80024C66A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C49FD5241AFB5DF500791E1A;
+			remoteInfo = OAuthSwiftOSXDemo;
+		};
+		ADE75B2E1BB12CA80024C66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE75B211BB12CA80024C66A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C48B28021AFA598D00C7DEF6;
+			remoteInfo = OAuthSwiftOSX;
+		};
+		ADE75B301BB12CD40024C66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE75B211BB12CA80024C66A /* OAuthSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F43502791A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AD16373C1BB1DBF70007EB65 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD8401501BB2B600006C663F /* OAuthSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		204D82AD1976B9C794EC23F8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2D23BD6D3A49128728382CE2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD01ABC61B817E55009196C1 /* CapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD01ABCA1B817E55009196C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD01ABCB1B817E55009196C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD01ABCE1B817E55009196C1 /* CapstoneProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CapstoneProject.xcdatamodel; sourceTree = "<group>"; };
-		AD01ABD01B817E55009196C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD01ABD31B817E55009196C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD01ABD51B817E55009196C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD01ABD81B817E55009196C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AD01ABDE1B817E55009196C1 /* CapstoneProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD01ABE31B817E55009196C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD01ABE41B817E55009196C1 /* CapstoneProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectTests.swift; sourceTree = "<group>"; };
+		AD01ABEE1B817E5E009196C1 /* CapstoneProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CapstoneProject.entitlements; sourceTree = "<group>"; };
+		AD075A541B91A73900A912E2 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		AD0FEB041BB12AA1009B30FC /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
+		AD143B3E1BA89F7600381CF9 /* ThumbsUpRatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbsUpRatingControl.swift; sourceTree = "<group>"; };
+		AD4D2D261B96990A00A97BDA /* YelpResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpResultsController.swift; sourceTree = "<group>"; };
+		AD5017321BB1D6400073BD40 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		AD5A27DD1B98C56600F60E5F /* EditJournalEntryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditJournalEntryTableViewController.swift; sourceTree = "<group>"; };
+		AD5A27E21B995ABB00F60E5F /* EaterySelectionMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaterySelectionMapViewController.swift; sourceTree = "<group>"; };
+		AD5A27E41B997CA100F60E5F /* JournalEntryFoodTypeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryFoodTypeController.swift; sourceTree = "<group>"; };
+		AD5A27E61B9B95B500F60E5F /* CapstoneProjectConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapstoneProjectConvenience.swift; sourceTree = "<group>"; };
+		AD5A27E81B9CBAC700F60E5F /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		AD5A27EA1B9E37E500F60E5F /* FoodTypePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTypePageViewController.swift; sourceTree = "<group>"; };
+		AD5A27EC1B9F489300F60E5F /* FoodTypeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTypeDetailViewController.swift; sourceTree = "<group>"; };
+		AD65E8091B81812F00AA9B56 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		AD65E80B1B8184CF00AA9B56 /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
+		AD65E80D1B818A6F00AA9B56 /* CloudKitClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitClient.swift; sourceTree = "<group>"; };
+		AD65E80F1B818B5F00AA9B56 /* FoursquareClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareClient.swift; sourceTree = "<group>"; };
+		AD65E8111B818BD200AA9B56 /* FoursquareConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareConstants.swift; sourceTree = "<group>"; };
+		AD65E8131B81910200AA9B56 /* NetworkingConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingConvenience.swift; sourceTree = "<group>"; };
+		AD65E8151B8D3B8C00AA9B56 /* NearMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
+		AD65E8171B8D3BD600AA9B56 /* LocalFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFoodViewController.swift; sourceTree = "<group>"; };
+		AD65E8191B8D3C1800AA9B56 /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		AD65E81B1B8D409A00AA9B56 /* FoodTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTypeViewController.swift; sourceTree = "<group>"; };
+		AD65E81D1B8D42BB00AA9B56 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
+		AD9E53111BAEF18400AA8727 /* EateryPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EateryPhoto.swift; sourceTree = "<group>"; };
+		ADA355E51B8E40B400D33A54 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		ADA355E71B8E4B3500D33A54 /* CustomTableCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCells.swift; sourceTree = "<group>"; };
+		ADA956F11BB1DA1D0067D634 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
+		ADA956F31BB1DA210067D634 /* Pods_CapstoneProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CapstoneProject.framework; path = "Pods/../build/Debug-iphoneos/Pods_CapstoneProject.framework"; sourceTree = "<group>"; };
+		ADA956F51BB1DA2F0067D634 /* Pods_CapstoneProjectTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CapstoneProjectTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_CapstoneProjectTests.framework"; sourceTree = "<group>"; };
+		ADAB3C3F1BC37E9E00F42ACF /* EditJournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditJournalEntryViewController.swift; sourceTree = "<group>"; };
+		ADBC66861B8FBAED003F01DE /* JournalEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		ADE75B211BB12CA80024C66A /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = "../../../Downloads/OAuthSwift-master-3/OAuthSwift.xcodeproj"; sourceTree = "<group>"; };
+		ADE75B321BB12D980024C66A /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = CapstoneProject/Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
+		ADE75B361BB12DC50024C66A /* Pods_CapstoneProject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CapstoneProject.framework; path = "Pods/../build/Debug-iphoneos/Pods_CapstoneProject.framework"; sourceTree = "<group>"; };
+		ADEADAE91B91B87B006B2E74 /* CapstoneProjectConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapstoneProjectConstants.swift; sourceTree = "<group>"; };
+		ADEADAEB1B9381B5006B2E74 /* CustomCollectionCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionCells.swift; sourceTree = "<group>"; };
+		ADEADAED1B952C36006B2E74 /* Eatery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eatery.swift; sourceTree = "<group>"; };
+		ADEADAEF1B9542F1006B2E74 /* InfoCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCard.swift; sourceTree = "<group>"; };
+		CBC03EC24EDAD010297CE5D8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +170,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD84014F1BB2B600006C663F /* OAuthSwift.framework in Frameworks */,
+				ADA956F61BB1DA2F0067D634 /* Pods_CapstoneProjectTests.framework in Frameworks */,
+				ADA956F41BB1DA210067D634 /* Pods_CapstoneProject.framework in Frameworks */,
+				ADA956F21BB1DA1D0067D634 /* Pods.framework in Frameworks */,
+				AD65E80A1B81812F00AA9B56 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +188,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032B88B91FB2C9E3A869D7C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADA956F51BB1DA2F0067D634 /* Pods_CapstoneProjectTests.framework */,
+				ADA956F31BB1DA210067D634 /* Pods_CapstoneProject.framework */,
+				ADA956F11BB1DA1D0067D634 /* Pods.framework */,
+				ADE75B361BB12DC50024C66A /* Pods_CapstoneProject.framework */,
+				AD0FEB041BB12AA1009B30FC /* Pods.framework */,
+				2D23BD6D3A49128728382CE2 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		407E3F268A6586EE30F016EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				204D82AD1976B9C794EC23F8 /* Pods.debug.xcconfig */,
+				CBC03EC24EDAD010297CE5D8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD01ABBD1B817E55009196C1 = {
 			isa = PBXGroup;
 			children = (
+				AD5017321BB1D6400073BD40 /* Cartfile */,
+				ADE75B321BB12D980024C66A /* OAuthSwift.framework */,
+				ADE75B211BB12CA80024C66A /* OAuthSwift.xcodeproj */,
+				AD65E8091B81812F00AA9B56 /* CloudKit.framework */,
 				AD01ABC81B817E55009196C1 /* CapstoneProject */,
 				AD01ABE11B817E55009196C1 /* CapstoneProjectTests */,
 				AD01ABC71B817E55009196C1 /* Products */,
+				407E3F268A6586EE30F016EE /* Pods */,
+				032B88B91FB2C9E3A869D7C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +237,9 @@
 		AD01ABC81B817E55009196C1 /* CapstoneProject */ = {
 			isa = PBXGroup;
 			children = (
-				AD01ABCB1B817E55009196C1 /* AppDelegate.swift */,
-				AD01ABD01B817E55009196C1 /* ViewController.swift */,
-				AD01ABD21B817E55009196C1 /* Main.storyboard */,
-				AD01ABD51B817E55009196C1 /* Images.xcassets */,
-				AD01ABD71B817E55009196C1 /* LaunchScreen.xib */,
-				AD01ABCD1B817E55009196C1 /* CapstoneProject.xcdatamodeld */,
+				ADBC66851B8FBAC5003F01DE /* Controller */,
+				ADBC66841B8FBAB5003F01DE /* View */,
+				ADBC66831B8FBA8B003F01DE /* Model */,
 				AD01ABC91B817E55009196C1 /* Supporting Files */,
 			);
 			path = CapstoneProject;
@@ -93,6 +248,12 @@
 		AD01ABC91B817E55009196C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AD01ABEE1B817E5E009196C1 /* CapstoneProject.entitlements */,
+				AD01ABCB1B817E55009196C1 /* AppDelegate.swift */,
+				AD01ABD51B817E55009196C1 /* Images.xcassets */,
+				AD01ABD71B817E55009196C1 /* LaunchScreen.xib */,
+				AD01ABD21B817E55009196C1 /* Main.storyboard */,
+				AD5A27E81B9CBAC700F60E5F /* ImageCache.swift */,
 				AD01ABCA1B817E55009196C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -105,7 +266,7 @@
 				AD01ABE21B817E55009196C1 /* Supporting Files */,
 			);
 			path = CapstoneProjectTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		AD01ABE21B817E55009196C1 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -115,6 +276,91 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ADBC66821B8FBA58003F01DE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AD65E80D1B818A6F00AA9B56 /* CloudKitClient.swift */,
+				AD075A541B91A73900A912E2 /* YelpClient.swift */,
+				AD65E80F1B818B5F00AA9B56 /* FoursquareClient.swift */,
+				AD65E8111B818BD200AA9B56 /* FoursquareConstants.swift */,
+				AD65E8131B81910200AA9B56 /* NetworkingConvenience.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		ADBC66831B8FBA8B003F01DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC66861B8FBAED003F01DE /* JournalEntry.swift */,
+				ADA355E51B8E40B400D33A54 /* Food.swift */,
+				ADEADAED1B952C36006B2E74 /* Eatery.swift */,
+				AD9E53111BAEF18400AA8727 /* EateryPhoto.swift */,
+				AD65E80B1B8184CF00AA9B56 /* CoreDataStackManager.swift */,
+				AD5A27E61B9B95B500F60E5F /* CapstoneProjectConvenience.swift */,
+				ADEADAE91B91B87B006B2E74 /* CapstoneProjectConstants.swift */,
+				AD01ABCD1B817E55009196C1 /* CapstoneProject.xcdatamodeld */,
+				ADBC66821B8FBA58003F01DE /* Networking */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ADBC66841B8FBAB5003F01DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD143B3E1BA89F7600381CF9 /* ThumbsUpRatingControl.swift */,
+				ADA355E71B8E4B3500D33A54 /* CustomTableCells.swift */,
+				ADEADAEB1B9381B5006B2E74 /* CustomCollectionCells.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ADBC66851B8FBAC5003F01DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD65E8151B8D3B8C00AA9B56 /* NearMeViewController.swift */,
+				AD65E8171B8D3BD600AA9B56 /* LocalFoodViewController.swift */,
+				AD4D2D261B96990A00A97BDA /* YelpResultsController.swift */,
+				ADEADAEF1B9542F1006B2E74 /* InfoCard.swift */,
+				ADCFBFE11BD7499C004B2A2D /* Journal Entry */,
+				ADCFBFE51BD749A9004B2A2D /* Food Type */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ADCFBFE11BD7499C004B2A2D /* Journal Entry */ = {
+			isa = PBXGroup;
+			children = (
+				AD65E81D1B8D42BB00AA9B56 /* JournalEntryViewController.swift */,
+				AD65E8191B8D3C1800AA9B56 /* JournalViewController.swift */,
+				AD5A27E41B997CA100F60E5F /* JournalEntryFoodTypeController.swift */,
+				ADAB3C3F1BC37E9E00F42ACF /* EditJournalEntryViewController.swift */,
+				AD5A27DD1B98C56600F60E5F /* EditJournalEntryTableViewController.swift */,
+				AD5A27E21B995ABB00F60E5F /* EaterySelectionMapViewController.swift */,
+			);
+			name = "Journal Entry";
+			sourceTree = "<group>";
+		};
+		ADCFBFE51BD749A9004B2A2D /* Food Type */ = {
+			isa = PBXGroup;
+			children = (
+				AD65E81B1B8D409A00AA9B56 /* FoodTypeViewController.swift */,
+				AD5A27EA1B9E37E500F60E5F /* FoodTypePageViewController.swift */,
+				AD5A27EC1B9F489300F60E5F /* FoodTypeDetailViewController.swift */,
+			);
+			name = "Food Type";
+			sourceTree = "<group>";
+		};
+		ADE75B221BB12CA80024C66A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE75B291BB12CA80024C66A /* OAuthSwiftDemo.app */,
+				ADE75B2B1BB12CA80024C66A /* OAuthSwift.framework */,
+				ADE75B2D1BB12CA80024C66A /* OAuthSwiftOSXDemo.app */,
+				ADE75B2F1BB12CA80024C66A /* OAuthSwiftOSX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,13 +368,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD01ABE81B817E55009196C1 /* Build configuration list for PBXNativeTarget "CapstoneProject" */;
 			buildPhases = (
+				332973761BA6C42026634045 /* Check Pods Manifest.lock */,
 				AD01ABC21B817E55009196C1 /* Sources */,
 				AD01ABC31B817E55009196C1 /* Frameworks */,
 				AD01ABC41B817E55009196C1 /* Resources */,
+				B3508781DD514EF5C0462156 /* Embed Pods Frameworks */,
+				C7CD2FF34C336486F68D6EC9 /* Copy Pods Resources */,
+				AD16373C1BB1DBF70007EB65 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ADE75B311BB12CD40024C66A /* PBXTargetDependency */,
 			);
 			name = CapstoneProject;
 			productName = CapstoneProject;
@@ -159,11 +410,18 @@
 		AD01ABBE1B817E55009196C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Cody Fazio";
 				TargetAttributes = {
 					AD01ABC51B817E55009196C1 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = K4X5878K44;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					AD01ABDD1B817E55009196C1 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -182,6 +440,12 @@
 			mainGroup = AD01ABBD1B817E55009196C1;
 			productRefGroup = AD01ABC71B817E55009196C1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ADE75B221BB12CA80024C66A /* Products */;
+					ProjectRef = ADE75B211BB12CA80024C66A /* OAuthSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AD01ABC51B817E55009196C1 /* CapstoneProject */,
@@ -190,6 +454,37 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		ADE75B291BB12CA80024C66A /* OAuthSwiftDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftDemo.app;
+			remoteRef = ADE75B281BB12CA80024C66A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ADE75B2B1BB12CA80024C66A /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = ADE75B2A1BB12CA80024C66A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ADE75B2D1BB12CA80024C66A /* OAuthSwiftOSXDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftOSXDemo.app;
+			remoteRef = ADE75B2C1BB12CA80024C66A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ADE75B2F1BB12CA80024C66A /* OAuthSwiftOSX.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwiftOSX.framework;
+			remoteRef = ADE75B2E1BB12CA80024C66A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		AD01ABC41B817E55009196C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -197,6 +492,7 @@
 			files = (
 				AD01ABD41B817E55009196C1 /* Main.storyboard in Resources */,
 				AD01ABD91B817E55009196C1 /* LaunchScreen.xib in Resources */,
+				AD5017331BB1D6400073BD40 /* Cartfile in Resources */,
 				AD01ABD61B817E55009196C1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,14 +506,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		332973761BA6C42026634045 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3508781DD514EF5C0462156 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7CD2FF34C336486F68D6EC9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD01ABC21B817E55009196C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD01ABD11B817E55009196C1 /* ViewController.swift in Sources */,
+				AD65E8181B8D3BD600AA9B56 /* LocalFoodViewController.swift in Sources */,
+				AD65E81A1B8D3C1800AA9B56 /* JournalViewController.swift in Sources */,
+				AD65E8161B8D3B8C00AA9B56 /* NearMeViewController.swift in Sources */,
+				AD65E81C1B8D409A00AA9B56 /* FoodTypeViewController.swift in Sources */,
+				AD65E80C1B8184CF00AA9B56 /* CoreDataStackManager.swift in Sources */,
+				ADEADAEE1B952C36006B2E74 /* Eatery.swift in Sources */,
+				AD143B3F1BA89F7600381CF9 /* ThumbsUpRatingControl.swift in Sources */,
+				AD5A27E31B995ABB00F60E5F /* EaterySelectionMapViewController.swift in Sources */,
+				AD65E81E1B8D42BB00AA9B56 /* JournalEntryViewController.swift in Sources */,
+				ADA355E61B8E40B400D33A54 /* Food.swift in Sources */,
+				AD5A27DE1B98C56600F60E5F /* EditJournalEntryTableViewController.swift in Sources */,
+				ADEADAEC1B9381B5006B2E74 /* CustomCollectionCells.swift in Sources */,
 				AD01ABCF1B817E55009196C1 /* CapstoneProject.xcdatamodeld in Sources */,
+				AD5A27E91B9CBAC700F60E5F /* ImageCache.swift in Sources */,
+				ADA355E81B8E4B3500D33A54 /* CustomTableCells.swift in Sources */,
+				AD5A27EB1B9E37E500F60E5F /* FoodTypePageViewController.swift in Sources */,
+				ADBC66871B8FBAEE003F01DE /* JournalEntry.swift in Sources */,
+				AD9E53121BAEF18400AA8727 /* EateryPhoto.swift in Sources */,
+				AD5A27E71B9B95B500F60E5F /* CapstoneProjectConvenience.swift in Sources */,
+				AD65E8141B81910200AA9B56 /* NetworkingConvenience.swift in Sources */,
 				AD01ABCC1B817E55009196C1 /* AppDelegate.swift in Sources */,
+				ADEADAEA1B91B87B006B2E74 /* CapstoneProjectConstants.swift in Sources */,
+				AD65E80E1B818A6F00AA9B56 /* CloudKitClient.swift in Sources */,
+				ADAB3C401BC37E9E00F42ACF /* EditJournalEntryViewController.swift in Sources */,
+				AD4D2D271B96990A00A97BDA /* YelpResultsController.swift in Sources */,
+				AD5A27ED1B9F489300F60E5F /* FoodTypeDetailViewController.swift in Sources */,
+				AD5A27E51B997CA100F60E5F /* JournalEntryFoodTypeController.swift in Sources */,
+				ADEADAF01B9542F1006B2E74 /* InfoCard.swift in Sources */,
+				AD65E8101B818B5F00AA9B56 /* FoursquareClient.swift in Sources */,
+				AD65E8121B818BD200AA9B56 /* FoursquareConstants.swift in Sources */,
+				AD075A551B91A73900A912E2 /* YelpClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +608,11 @@
 			isa = PBXTargetDependency;
 			target = AD01ABC51B817E55009196C1 /* CapstoneProject */;
 			targetProxy = AD01ABDF1B817E55009196C1 /* PBXContainerItemProxy */;
+		};
+		ADE75B311BB12CD40024C66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			targetProxy = ADE75B301BB12CD40024C66A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -279,7 +656,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -323,6 +702,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -342,21 +722,47 @@
 		};
 		AD01ABE91B817E55009196C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204D82AD1976B9C794EC23F8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CapstoneProject/CapstoneProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/CapstoneProject/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CapstoneProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		AD01ABEA1B817E55009196C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC03EC24EDAD010297CE5D8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CapstoneProject/CapstoneProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/CapstoneProject/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CapstoneProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -374,6 +780,7 @@
 				);
 				INFOPLIST_FILE = CapstoneProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapstoneProject.app/CapstoneProject";
 			};
@@ -389,6 +796,7 @@
 				);
 				INFOPLIST_FILE = CapstoneProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapstoneProject.app/CapstoneProject";
 			};
@@ -413,6 +821,7 @@
 				AD01ABEA1B817E55009196C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD01ABEB1B817E55009196C1 /* Build configuration list for PBXNativeTarget "CapstoneProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +830,7 @@
 				AD01ABED1B817E55009196C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
