@@ -21,7 +21,7 @@ class FoodTypePageViewController : UIPageViewController, UIPageViewControllerDat
     var currentFoodItem : Food?
     var pageViewDelegate : FoodTypePageViewDelegate?
     var index = 0
-    var identifiers : Array = ["briefDescriptionController", "historyController", "recommendationsController"] // Insert storyboard ids of controller to be displayed here.
+    var identifiers = ["briefDescriptionController", "historyController", "recommendationsController"] // Insert storyboard ids of controller to be displayed here.
     
     //Lifecycle
     //Set dataSource and delegate to self, set up the controller array, and display the initial controller

@@ -133,11 +133,13 @@ class LocalFoodViewController : UIViewController, UITableViewDelegate, UITableVi
         if (self.searchResultsController.active) {
             currentFoodItem = self.filteredItems[indexPath.row]
             singleFoodItemArray.append(currentFoodItem!)
+            self.searchResultsController.dismissViewControllerAnimated(true, completion: nil)
         } else {
             currentFoodItem = self.items[indexPath.row]
             singleFoodItemArray.append(currentFoodItem!)
             
         }
+        
         
         self.performSegueWithIdentifier("pushFoodTypeFromLocalFood", sender: self)
     }

@@ -29,6 +29,8 @@ class NearMeViewController : UIViewController, UITableViewDelegate, UITableViewD
     var yelpItems = [Eatery]()
     let locationManager = CLLocationManager()
     var currentLocationCoordinate : CLLocationCoordinate2D?
+    var photos = [PhotoRecord]()
+    let pendingOperations = PendingOperations()
     
     //Lifecycle
     override func viewDidLoad() {
@@ -174,6 +176,13 @@ class NearMeViewController : UIViewController, UITableViewDelegate, UITableViewD
                 if success {
                     if foods != nil {
                         self.items = foods!
+                        fetchPhotoDetails()
+                        
+                        
+                        
+                        
+                        
+                        
                         completionHandler(success: true, error: nil)
                     } else {
                         dispatch_async(dispatch_get_main_queue()) {
@@ -235,6 +244,10 @@ class NearMeViewController : UIViewController, UITableViewDelegate, UITableViewD
         if (segue.identifier == "pushFoodTypeFromNearMe") {
             let nextViewController = (segue.destinationViewController as! FoodTypeViewController)
             nextViewController.currentFoodItem = currentFoodItem
+            let itemsArray: [Food] = [currentFoodItem!]
+            nextViewController.currentFoodItems = itemsArray
+
+            
         } else if (segue.identifier == "pushYelpResultsFromNearMe") {
             let nextViewController = (segue.destinationViewController as! YelpResultsController)
             nextViewController.activityIndicatorDelegate = self 

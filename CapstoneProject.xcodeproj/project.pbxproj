@@ -15,8 +15,9 @@
 		AD01ABE51B817E55009196C1 /* CapstoneProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01ABE41B817E55009196C1 /* CapstoneProjectTests.swift */; };
 		AD075A551B91A73900A912E2 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD075A541B91A73900A912E2 /* YelpClient.swift */; };
 		AD143B3F1BA89F7600381CF9 /* ThumbsUpRatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD143B3E1BA89F7600381CF9 /* ThumbsUpRatingControl.swift */; };
+		AD1AC57A1C162F7F006CB1E5 /* PhotoOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1AC5791C162F7F006CB1E5 /* PhotoOperations.swift */; };
 		AD4D2D271B96990A00A97BDA /* YelpResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D2D261B96990A00A97BDA /* YelpResultsController.swift */; };
-		AD5017331BB1D6400073BD40 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AD5017321BB1D6400073BD40 /* Cartfile */; settings = {ASSET_TAGS = (); }; };
+		AD5017331BB1D6400073BD40 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AD5017321BB1D6400073BD40 /* Cartfile */; };
 		AD5A27DE1B98C56600F60E5F /* EditJournalEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27DD1B98C56600F60E5F /* EditJournalEntryTableViewController.swift */; };
 		AD5A27E31B995ABB00F60E5F /* EaterySelectionMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27E21B995ABB00F60E5F /* EaterySelectionMapViewController.swift */; };
 		AD5A27E51B997CA100F60E5F /* JournalEntryFoodTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A27E41B997CA100F60E5F /* JournalEntryFoodTypeController.swift */; };
@@ -43,7 +44,7 @@
 		ADA956F21BB1DA1D0067D634 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA956F11BB1DA1D0067D634 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		ADA956F41BB1DA210067D634 /* Pods_CapstoneProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA956F31BB1DA210067D634 /* Pods_CapstoneProject.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		ADA956F61BB1DA2F0067D634 /* Pods_CapstoneProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA956F51BB1DA2F0067D634 /* Pods_CapstoneProjectTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		ADAB3C401BC37E9E00F42ACF /* EditJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAB3C3F1BC37E9E00F42ACF /* EditJournalEntryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ADAB3C401BC37E9E00F42ACF /* EditJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAB3C3F1BC37E9E00F42ACF /* EditJournalEntryViewController.swift */; };
 		ADBC66871B8FBAEE003F01DE /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC66861B8FBAED003F01DE /* JournalEntry.swift */; };
 		ADEADAEA1B91B87B006B2E74 /* CapstoneProjectConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEADAE91B91B87B006B2E74 /* CapstoneProjectConstants.swift */; };
 		ADEADAEC1B9381B5006B2E74 /* CustomCollectionCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEADAEB1B9381B5006B2E74 /* CustomCollectionCells.swift */; };
@@ -127,6 +128,7 @@
 		AD075A541B91A73900A912E2 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 		AD0FEB041BB12AA1009B30FC /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		AD143B3E1BA89F7600381CF9 /* ThumbsUpRatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbsUpRatingControl.swift; sourceTree = "<group>"; };
+		AD1AC5791C162F7F006CB1E5 /* PhotoOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoOperations.swift; sourceTree = "<group>"; };
 		AD4D2D261B96990A00A97BDA /* YelpResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpResultsController.swift; sourceTree = "<group>"; };
 		AD5017321BB1D6400073BD40 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		AD5A27DD1B98C56600F60E5F /* EditJournalEntryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditJournalEntryTableViewController.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 		ADBC66831B8FBA8B003F01DE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AD1AC5791C162F7F006CB1E5 /* PhotoOperations.swift */,
 				ADBC66861B8FBAED003F01DE /* JournalEntry.swift */,
 				ADA355E51B8E40B400D33A54 /* Food.swift */,
 				ADEADAED1B952C36006B2E74 /* Eatery.swift */,
@@ -589,6 +592,7 @@
 				ADEADAF01B9542F1006B2E74 /* InfoCard.swift in Sources */,
 				AD65E8101B818B5F00AA9B56 /* FoursquareClient.swift in Sources */,
 				AD65E8121B818BD200AA9B56 /* FoursquareConstants.swift in Sources */,
+				AD1AC57A1C162F7F006CB1E5 /* PhotoOperations.swift in Sources */,
 				AD075A551B91A73900A912E2 /* YelpClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
