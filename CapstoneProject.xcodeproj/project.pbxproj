@@ -293,7 +293,6 @@
 		ADBC66831B8FBA8B003F01DE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AD1AC5791C162F7F006CB1E5 /* PhotoOperations.swift */,
 				ADBC66861B8FBAED003F01DE /* JournalEntry.swift */,
 				ADA355E51B8E40B400D33A54 /* Food.swift */,
 				ADEADAED1B952C36006B2E74 /* Eatery.swift */,
@@ -301,6 +300,7 @@
 				AD65E80B1B8184CF00AA9B56 /* CoreDataStackManager.swift */,
 				AD5A27E61B9B95B500F60E5F /* CapstoneProjectConvenience.swift */,
 				ADEADAE91B91B87B006B2E74 /* CapstoneProjectConstants.swift */,
+				AD1AC5791C162F7F006CB1E5 /* PhotoOperations.swift */,
 				AD01ABCD1B817E55009196C1 /* CapstoneProject.xcdatamodeld */,
 				ADBC66821B8FBA58003F01DE /* Networking */,
 			);

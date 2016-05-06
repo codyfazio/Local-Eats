@@ -27,8 +27,8 @@ class FoursquareClient: NSObject {
     func searchForVenue(eatery: Eatery, completionHandler: (success: Bool, error: String?) -> Void) {
         
         var mutableParameters : [String: AnyObject]?
-        var passedBody : [String : AnyObject]?
-        var headers : [String: AnyObject]?
+        let passedBody : [String : AnyObject]? = nil
+        let headers : [String: AnyObject]? = nil 
         let venueName = eatery.name
         let venuePhoneNumber = eatery.phone
         let lat = Double(eatery.latitude)
@@ -80,8 +80,8 @@ class FoursquareClient: NSObject {
     func photoFromVenue(venueID : String, completionHandler: (success: Bool, error: String?, photo: EateryPhoto?) -> Void) {
         
         var mutableParameters : [String: AnyObject]?
-        var passedBody : [String : AnyObject]? = nil
-        var headers : [String: AnyObject]? = nil
+        let passedBody : [String : AnyObject]? = nil
+        let headers : [String: AnyObject]? = nil
         
         mutableParameters = buildVenueParameters()
         

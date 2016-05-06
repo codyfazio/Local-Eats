@@ -445,7 +445,7 @@
                                 <rect key="frame" x="-10" y="-10" width="20" height="20"/>
                                 <animations/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="428" width="37" height="37"/>
+                                    <rect key="frame" x="2" y="426" width="37" height="37"/>
                                 </variation>
                             </activityIndicatorView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORe-bC-AKD">
@@ -1284,7 +1284,7 @@
                                 <animations/>
                                 <color key="color" red="0.46038510101010099" green="0.46038510101010099" blue="0.46038510101010099" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="182" y="281" width="37" height="37"/>
+                                    <rect key="frame" x="182" y="282" width="37" height="37"/>
                                 </variation>
                             </activityIndicatorView>
                         </subviews>
@@ -1370,6 +1370,9 @@
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="8" y="11" width="62" height="21"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <animations/>
@@ -1426,6 +1429,9 @@
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="8" y="11" width="104" height="21"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <animations/>
@@ -1613,15 +1619,21 @@
                                             <rect key="frame" x="0.0" y="0.0" width="240" height="175.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lli-g2-JVW">
+                                                <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lli-g2-JVW">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <animations/>
+                                                    <variation key="widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="175.5"/>
+                                                    </variation>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bTp-42-LL6">
                                                     <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <state key="normal" title="Add a photo"/>
+                                                    <variation key="widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="175.5"/>
+                                                    </variation>
                                                     <connections>
                                                         <action selector="addPhotoButtonClicked:" destination="3O1-lz-arq" eventType="touchUpInside" id="klq-EC-41S"/>
                                                     </connections>

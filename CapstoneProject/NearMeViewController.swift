@@ -176,7 +176,6 @@ class NearMeViewController : UIViewController, UITableViewDelegate, UITableViewD
                 if success {
                     if foods != nil {
                         self.items = foods!
-                        fetchPhotoDetails()
                         
                         
                         
