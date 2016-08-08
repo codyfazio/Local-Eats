@@ -1,5 +1,7 @@
 # Local-Eats
 
+**Currently undergoing major revisions to update UI, while refactoring to take advantage of lastest language and API changes. This will result in complete removal of Foursquare.**
+
 Capstone Project (aka Local Eats)
 
 This app centers around the idea that certain places are known for certain types of food. It provides a way to view information about these foods, find them, and keep a journal of new foods the user tries. It presents information to the user in three main views. 
